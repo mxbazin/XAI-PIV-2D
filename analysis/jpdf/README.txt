@@ -1,0 +1,1 @@
+"Among the four structure types, only Entrainment shows a significant phase dependence, both in its spatial extent and peak amplitude. Shear, Vorticity and Q2D remain quasi-invariant across the cycle, suggesting that they represent the stationary turbulent background of the jet."

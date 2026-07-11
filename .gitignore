@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------------------
+# Datasets (too large for GitHub, ~13 GB) — hosted separately.
+# Use `dir/*` (not `dir/`) so the README below can be re-included.
+# ---------------------------------------------------------------------------
+data/*
+!data/README.md
+
+# ---------------------------------------------------------------------------
+# Generated results (figures, videos, caches). Keep only the trained model
+# so SHAP can be run without retraining.
+# ---------------------------------------------------------------------------
+results/*
+!results/models/
+results/models/*
+!results/models/trained_model.h5
+
+# Analysis caches / outputs
+analysis/**/cache/
+analysis/**/*.npy
+analysis/**/*.npz
+analysis/**/*.png
+analysis/**/*.mp4
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# ---------------------------------------------------------------------------
+# Logs and temporary files
+# ---------------------------------------------------------------------------
+*.log
+*.bak
+*.tmp
+*.out
+
+# ---------------------------------------------------------------------------
+# Editors / OS / tooling
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+# Python >= 3.9 recommended (the original training used Python 3.9).
+#
+# The `shap` package is a modified version bundled under
+# code/py_bin/py_packages/ — do NOT install it from pip. Its runtime
+# dependencies (numba, pandas, packaging...) are listed below.
+
+# --- Scientific core ---
+numpy
+scipy
+h5py
+matplotlib
+pandas
+
+# --- Deep learning / SHAP (Expected Gradients) ---
+tensorflow>=2.10
+numba
+packaging
+
+# --- Image / structure processing ---
+scikit-image
+scikit-learn
+opencv-python
+
+# --- Utilities ---
+tqdm
+psutil
